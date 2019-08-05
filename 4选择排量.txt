@@ -1,0 +1,29 @@
+GET请求:
+https://item.tuhu.cn/Car/SelectVehicle?callback=__GetCarBrands__&VehicleID=VE-CACS15&PaiLiang=1.5L&_=1546656406304
+
+
+请求参数:
+callback:__GetCarBrands__
+VehicleID:VE-CACS15
+PaiLiang:1.5L
+_:1546656406304
+
+
+返回结果:
+__GetCarBrands__({
+	"TipsInfo": "",
+	"Code": "1",
+	"Nian": [{
+		"Key": "VE-CACS15",
+		"Value": "2019"
+	}, {
+		"Key": "VE-CACS15",
+		"Value": "2018"
+	}, {
+		"Key": "VE-CACS15",
+		"Value": "2017"
+	}, {
+		"Key": "VE-CACS15",
+		"Value": "2016"
+	}]
+})

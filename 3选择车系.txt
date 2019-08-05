@@ -1,0 +1,38 @@
+GET请求:(返回KEY和轮胎规格)
+https://item.tuhu.cn/Car/GetTires?callback=__GetCarBrands__&ProductID=VE-CACS15&_=1546656406302
+
+参数:
+callback:__GetCarBrands__
+ProductID:VE-CACS15
+_:1546656406302
+
+
+返回结果:
+__GetCarBrands__({
+	"Code": "1",
+	"Tires": {
+		"Key": "VE-CACS15",
+		"Value": "205/55R16"
+	}
+})
+
+
+
+GET请求:(返回KEY和排量)
+https://item.tuhu.cn/Car/SelectVehicle?callback=__GetCarBrands__&VehicleID=VE-CACS15&_=1546656406303
+
+参数:
+callback:__GetCarBrands__
+VehicleID:VE-CACS15
+_:1546656406303
+
+
+返回结果:
+__GetCarBrands__({
+	"TipsInfo": "",
+	"Code": "1",
+	"PaiLiang": [{
+		"Key": "VE-CACS15",
+		"Value": "1.5L"
+	}]
+})
